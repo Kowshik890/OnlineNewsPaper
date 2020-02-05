@@ -1,0 +1,249 @@
+body{
+	background: #949596;
+	padding:30px;
+	margin:auto;
+}
+
+.header{
+		background-color: black;
+		width: 100%;
+		height:150px;
+		margin: auto;
+}
+
+.logo{
+	width: 20%;
+	height: 150px;
+	float: left;
+}
+
+.banner{
+	width: 80%;
+	height: 150px;
+	float: right;
+}
+
+.navbar{
+		background-color: #e2e2e2;
+		width: 100%;
+		height:70px;
+		margin: auto;
+		border-top: 3px solid black;
+		border-bottom: 2px solid black;
+}
+
+.navbar ul{
+	padding: 0px;
+	margin: 0px;
+	padding-top: 22px;
+	padding-left:30px;
+}
+
+.navbar li{
+	list-style: none;
+	display: inline; 
+	
+}
+.navbar li  a{
+	text-decoration: none;
+	padding:10px;
+	font-size:20px;
+	text-transform: uppercase;
+}
+
+.navbar li  a:hover{
+	background-color:white;
+	color: red;
+	padding: 8px;
+}
+
+.main_content{
+		background-color: #e2e2e2;
+		width: 75%;
+		height:auto;
+		float: left;
+		border-right: 2px solid black;
+}
+
+.imageslide{
+	margin: 25px;
+	width: 70%;
+	height: 400px;
+	float: left;
+}
+
+.image-side{
+	float: right;
+	width: 24.8%;
+	height: 450px;
+}
+
+.image-side-up{
+	padding: 25px 25px 0 0;
+}
+
+.image-side-bottom{
+	padding: 20px 25px 0 0;
+}
+
+.news-content{
+	height:auto;
+}
+
+.news-content-left{
+	background-color: white;
+	width: 33.33%;
+	float: left;
+	border-right: 1px dotted gray;
+	height: auto;
+}
+
+.news-content-middle{
+	background-color: white;
+	width: 33.33%;
+	float: left;
+	border-right: 1px dotted gray;
+	height: auto;
+}
+
+.news-content-right{
+	background-color: white;
+	width: 33.34%;
+	float: right;
+	height: auto;
+}
+
+#myCarousel {
+  height: auto;
+  width: auto;
+  overflow: hidden;
+}
+
+.sidebar{
+		background-color: #e2e2e2;
+		width: 25%;
+		height:1500px;
+		float: right;
+}
+
+.latest{
+	background-color: black;
+	width: 96%;
+	height: 40px;
+	margin: 5px;
+	color: white;
+}
+
+.latest h2{
+	padding: 4px;
+}
+
+.latest_national{
+	width: 98%;
+	height: auto;
+	margin: 5px;
+	color: black;
+}
+
+.latest-photoandcontent{
+	height: auto;
+	padding: 5px;
+}
+
+.latest-photo{
+	float: left;
+	height:55px;
+	width: 60px;
+	border-right: 1px dotted gray;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+.latest-content{
+	padding-top: 10px;
+	float: auto;
+	height: 60px;
+	width: 300px;
+	padding-right: 10px;
+}
+
+.footer{
+		background-color: #605e5e;
+		width: 100%;
+		height:50px;
+		float: left;
+		padding-top: 15px;
+}
+
+.step-name{
+    padding-bottom: 7px;
+	width:900px;
+	height: 40px;
+    color: #666;
+    background-color: #d4d8dd;
+    font-size: 30px;
+    font-weight: bold; 
+}
+
+.step-name-left{
+	margin-top:47px;
+	width: 50%;
+	height: 550px;
+    float: left;
+}
+.step-name-left h2{
+	
+	padding: 0px 0px 0px 10px ;
+        font-size: 24px;
+        color: #444444;
+}
+
+.step-name-left p{
+	
+	padding: 0px  0px 0px 10px ;
+        font-size: 18px;
+        color: #444444;
+}
+
+.step-name-right{
+	width: 50%;
+    float: left;
+	height:550px;
+	margin-top:18px;
+}
+
+.step-name-right h2{
+	
+	padding: 0px 0px 0px 10px ;
+        font-size: 24px;
+        color: #444444;
+}
+
+.step-name-right p{
+	
+	padding: 0px  0px 0px 10px ;
+        font-size: 18px;
+        color: #444444;
+}
+
+#social{border-top: 2px dotted black; padding-bottom: 10px;}
+
+#social img{padding:7px; width: 45px; height: 45px; margin-left: 150px; }
+
+#social h2{text-align: center; font-family: Vollkorn; color: black;}
+
+
+.image-side-up{
+	position: relative;
+}
+
+.image-side-up p{
+	position: absolute; 
+   top: 150px; 
+   left: 0; 
+   width: 90%;
+   padding-left: 5px;
+   padding-right: 5px;
+   color: white;
+   font: bold;
+}
