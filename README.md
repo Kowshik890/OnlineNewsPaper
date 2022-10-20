@@ -1,4 +1,4 @@
-# Online News Paper
+# Online News Portal
 ### This project is about Online News Portal which is developed by Core PHP concept, HTML, CSS, Bootstrap, and MySQL in Bachelor program.
 This project has two parts. One is Admin part and another is User(Reader) part.
 The functionalities of this project are:
